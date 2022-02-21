@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace SibersTest.ApplicationService.DTO
 {
-    internal class ProjectDTO
+    public class ProjectDTO
     {
+        public Guid Id { get; set; }
+        public string ProjectName { get; set; }
+        public string CompanyCustomer { get; set; }
+        public string PerfomingCompany { get; set; }
+        public int? LeadEmployeeId { get; set; }
+        public DateTime StartDate { get; set; }
+        public DateTime EndDate { get; set; }
+        public int ProjectPriority { get; set; }
+
     }
 }

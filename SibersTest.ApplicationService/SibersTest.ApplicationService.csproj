@@ -10,7 +10,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SibersTest.DomainEntityFramework\SibersTest.DomainEntityFramework.csproj" />
     <ProjectReference Include="..\SibersTest.Domain\SibersTest.Domain.csproj" />
   </ItemGroup>
 

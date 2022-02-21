@@ -14,3 +14,4 @@ namespace SibersTest.ApplicationService.DTO
         public string EmployeeSurname { get; set; }
         public string Email { get; set; }
     }
+}

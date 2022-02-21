@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SibersTest.Web", "SibersTes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SibersTest.Domain", "SibersTest.Domain\SibersTest.Domain.csproj", "{C6B32FE1-69B4-4DB4-ABD6-E75C81059B7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SibersTest.DomainEntityFramework", "SibersTest.DomainEntityFramework\SibersTest.DomainEntityFramework.csproj", "{2D57E505-6C55-456B-8510-724BBB4AE854}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SibersTest.ApplicationService", "SibersTest.ApplicationService\SibersTest.ApplicationService.csproj", "{33E3AD53-CC5B-4BD1-A740-C370A2269562}"
 EndProject
 Global
@@ -25,10 +23,6 @@ Global
 		{C6B32FE1-69B4-4DB4-ABD6-E75C81059B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6B32FE1-69B4-4DB4-ABD6-E75C81059B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6B32FE1-69B4-4DB4-ABD6-E75C81059B7F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2D57E505-6C55-456B-8510-724BBB4AE854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D57E505-6C55-456B-8510-724BBB4AE854}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2D57E505-6C55-456B-8510-724BBB4AE854}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2D57E505-6C55-456B-8510-724BBB4AE854}.Release|Any CPU.Build.0 = Release|Any CPU
 		{33E3AD53-CC5B-4BD1-A740-C370A2269562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{33E3AD53-CC5B-4BD1-A740-C370A2269562}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33E3AD53-CC5B-4BD1-A740-C370A2269562}.Release|Any CPU.ActiveCfg = Release|Any CPU
