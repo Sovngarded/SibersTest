@@ -8,7 +8,7 @@ namespace SibersTest.ApplicationService.DTO
 {
     public class ProjectDTO
     {
-        public Guid Id { get; set; }
+        public Guid ProjectID { get; set; }
         public string ProjectName { get; set; }
         public string CompanyCustomer { get; set; }
         public string PerfomingCompany { get; set; }

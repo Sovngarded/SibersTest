@@ -10,7 +10,8 @@ namespace SibersTest.Domain.Entities
     public partial class Employee
     {
        
-       [Key] public Guid EmployeeID { get; set; }
+       
+        public Guid EmployeeID { get; set; }
         [Required]
         public string EmployeeName { get; set; }
         public string EmployeeMiddleName { get; set; }

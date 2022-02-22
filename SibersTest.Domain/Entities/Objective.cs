@@ -10,7 +10,7 @@ namespace SibersTest.Domain.Entities
 {
     public class Objective
     {
-       [Key] public Guid ObjectiveID { get; set; }
+        public Guid ObjectiveID { get; set; }
         public int ProjectID { get; set; }
         [ForeignKey("ProjectID")]
         public virtual Objective Project { get; set; }

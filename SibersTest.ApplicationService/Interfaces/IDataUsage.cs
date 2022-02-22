@@ -8,9 +8,9 @@ namespace SibersTest.ApplicationService.Interface
 {
     public interface IDataUsage<T> where T : class
     {
-        Task<IEnumerable<T>> Create(T entity);
+        Task<IEnumerable<T>> Create(T entityitem);
         Task Edit(T entityoriginal, T entityfinal);
-        Task Delete(T entity);
+        Task Delete(T entityitem);
         Task<IEnumerable<T>> GetAll();
 
 

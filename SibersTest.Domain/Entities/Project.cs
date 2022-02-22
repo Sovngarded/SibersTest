@@ -9,7 +9,7 @@ namespace SibersTest.Domain.Entities
 {
     public class Project
     {
-        [Key] public Guid Id { get; set; }
+        public Guid ProjectID { get; set; }
         [Required]
         public string ProjectName { get; set; }
         public string CompanyCustomer { get; set; }
