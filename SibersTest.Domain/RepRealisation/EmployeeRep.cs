@@ -42,19 +42,7 @@ namespace SibersTest.Domain.Realisation
                 db.Employees.Remove(e);
         }
 
-        public IEnumerable<Employee> Find(Func<Employee, bool> predicate)
-        {
-            IEnumerable<Employee> emps = db.Employees.Where(predicate).ToList();
-            if (emps == null) return null;
-            return db.Employees.Include(e => e.ProjectsEmployees).Where(predicate).ToList();
-        }
-
-        public async Task<Employee> Get(int? id)
-        {
-            if (id == null) return null;
-            return await db.Employees.FindAsync(id);
-        }
-
+       
         public async Task<IEnumerable<Employee>> GetAll()
         {
             return await db.Employees.ToListAsync();

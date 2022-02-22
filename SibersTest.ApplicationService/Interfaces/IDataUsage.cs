@@ -13,6 +13,8 @@ namespace SibersTest.ApplicationService.Interface
         Task Delete(T entityitem);
         Task<IEnumerable<T>> GetAll();
 
+        Task<T> IsExist(T entityitem);
+
 
 
     }

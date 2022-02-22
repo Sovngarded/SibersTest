@@ -9,8 +9,6 @@ namespace SibersTest.Domain.Interfaces
     public interface IRepository<T> where T : class
     {
         Task<IEnumerable<T>> GetAll();
-        Task<T> Get(int? id);
-        IEnumerable<T> Find(Func<T, Boolean> predicate);
         Task Create(T entityitem);
         Task Edit(T entityoriginal, T entityfinal);
         Task Delete(T entityitem);
